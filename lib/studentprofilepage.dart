@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(SchoolLibraryApp());
 
 class SchoolLibraryApp extends StatelessWidget {
+  const SchoolLibraryApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,6 +15,8 @@ class SchoolLibraryApp extends StatelessWidget {
 }
 
 class StudentProfilePage extends StatefulWidget {
+  const StudentProfilePage({super.key});
+
   @override
   _StudentProfilePageState createState() => _StudentProfilePageState();
 }

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(SchoolLibraryApp());
 
 class SchoolLibraryApp extends StatelessWidget {
+  const SchoolLibraryApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,6 +15,8 @@ class SchoolLibraryApp extends StatelessWidget {
 }
 
 class AdminLoginPage extends StatelessWidget {
+  const AdminLoginPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

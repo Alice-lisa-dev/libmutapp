@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(SchoolLibraryApp());
 
 class SchoolLibraryApp extends StatelessWidget {
+  const SchoolLibraryApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,6 +25,8 @@ class BookUpdatePage extends StatelessWidget {
       'image': 'https://via.placeholder.com/50' // Placeholder image
     };
   });
+
+  BookUpdatePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -88,6 +92,8 @@ class BookUpdatePage extends StatelessWidget {
 
 //  Student Profile Page
 class StudentProfilePage extends StatelessWidget {
+  const StudentProfilePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

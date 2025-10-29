@@ -4,6 +4,8 @@ import 'main.dart'; // Make sure this exists
 class ForgotPasswordPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
 
+  ForgotPasswordPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
